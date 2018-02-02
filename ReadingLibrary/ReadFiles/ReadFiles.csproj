@@ -67,6 +67,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <None Include="files\encrypted-json.json" />
+    <None Include="files\json-file.json" />
+    <None Include="files\secured-json.json" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -79,6 +82,14 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="files\encrypted-xml.xml" />
+    <Content Include="files\encryptedFile.txt" />
+    <Content Include="files\secured-text.txt" />
+    <Content Include="files\secured-xml.xml" />
+    <Content Include="files\shortList.txt" />
+    <Content Include="files\xml-file.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

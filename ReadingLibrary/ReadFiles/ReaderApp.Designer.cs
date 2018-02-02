@@ -39,7 +39,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(75, 52);
+            this.button1.Location = new System.Drawing.Point(38, 52);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 0;
@@ -49,7 +49,7 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(236, 55);
+            this.textBox1.Location = new System.Drawing.Point(133, 54);
             this.textBox1.Name = "textBox1";
             this.textBox1.ReadOnly = true;
             this.textBox1.Size = new System.Drawing.Size(660, 20);
@@ -66,7 +66,7 @@
             // isEncrypted
             // 
             this.isEncrypted.AutoSize = true;
-            this.isEncrypted.Location = new System.Drawing.Point(75, 98);
+            this.isEncrypted.Location = new System.Drawing.Point(47, 98);
             this.isEncrypted.Name = "isEncrypted";
             this.isEncrypted.Size = new System.Drawing.Size(90, 17);
             this.isEncrypted.TabIndex = 3;
@@ -76,7 +76,7 @@
             // roleBox
             // 
             this.roleBox.FormattingEnabled = true;
-            this.roleBox.Location = new System.Drawing.Point(236, 98);
+            this.roleBox.Location = new System.Drawing.Point(379, 96);
             this.roleBox.Name = "roleBox";
             this.roleBox.Size = new System.Drawing.Size(121, 21);
             this.roleBox.TabIndex = 4;
@@ -85,7 +85,7 @@
             // roleLabel
             // 
             this.roleLabel.AutoSize = true;
-            this.roleLabel.Location = new System.Drawing.Point(422, 105);
+            this.roleLabel.Location = new System.Drawing.Point(302, 99);
             this.roleLabel.Name = "roleLabel";
             this.roleLabel.Size = new System.Drawing.Size(61, 13);
             this.roleLabel.TabIndex = 5;
@@ -94,7 +94,7 @@
             // enableSecurity
             // 
             this.enableSecurity.AutoSize = true;
-            this.enableSecurity.Location = new System.Drawing.Point(574, 98);
+            this.enableSecurity.Location = new System.Drawing.Point(154, 98);
             this.enableSecurity.Name = "enableSecurity";
             this.enableSecurity.Size = new System.Drawing.Size(100, 17);
             this.enableSecurity.TabIndex = 6;
@@ -114,7 +114,7 @@
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.button1);
             this.Name = "ReaderApp";
-            this.Text = "Form1";
+            this.Text = "File Reader";
             this.ResumeLayout(false);
             this.PerformLayout();
 
